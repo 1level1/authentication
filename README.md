@@ -1,16 +1,22 @@
 # authentication
 Mobile (FE) and BE social authentication using React-Native and Django
 
-This is a general example for authentication a of mobile app (FE), using third party (Facebook, Google...) and a BE service (Djange-Rest-Framework).
+This is a general example for authentication a of mobile app (FE), using third party (Facebook, Google...) and a BE service (Djange-Rest-Framework). Will use google as an example, process is the same for all third party authenticatrion.
+
 
 The highlevel flow is (App should already be registered, with an ap id):
-1) Mobile App - user registers through 
-Facebook SDK talks to Facebook backend to get a token
-Your client gives your backend the token
-Your backend validates the token against Facebook’s servers
-Your backend issues a new authentication or session token
-Your client saves your backend’s auth token: Now you’re logged in and can talk to your own servers forever, or at least in a way you understand.
+1) Mobile App - user login to third party
+2) Third party supplies a token
+3) Pass token to BE
+4) BE validates the token with third party, retrieves requested data.
+5) BE supplies a new token for session.
+6) App, user, uses token for communicating with backend API.
 
-
-## prerequisites:
-1) 
+## Instalation:
+1) Python >= 3.6
+2) virtual env:
+2.1) virtualenv py_venv
+2.2) Activate venv
+3) Install Django, Django-Rest-Famework
+4) Install PostgreSQL
+5) Install react-native
