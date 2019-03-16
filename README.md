@@ -1,4 +1,5 @@
-# authentication
+# Backend authentication using frontend (Mobile app) login
+
 Mobile (FE) and BE social authentication using React-Native and Django
 
 This is a general example for authentication a of mobile app (FE), using third party (Facebook, Google...) and a BE service (Djange-Rest-Framework). Will use google as an example, process is the same for all third party authenticatrion.
