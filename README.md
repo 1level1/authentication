@@ -1,11 +1,11 @@
 # Backend authentication using frontend (Mobile app) login
 
-Mobile (FE) and BE social authentication using React-Native and Django
+Mobile (FE) and BE social authentication using React-Native, Django and PostgreSQL
 
 This is a general example for authentication a of mobile app (FE), using third party (Facebook, Google...) and a BE service (Djange-Rest-Framework). Will use google as an example, process is the same for all third party authenticatrion.
 
 
-The highlevel flow is (App should already be registered, with an ap id):
+The highlevel flow is (App should already be registered - have app id):
 1) Mobile App - user login to third party
 2) Third party supplies a token
 3) Pass token to BE
@@ -23,3 +23,15 @@ The highlevel flow is (App should already be registered, with an ap id):
     2. pip install django-rest-framework
 4. Install PostgreSQL
 5. Install react-native
+
+## Implementation:
+### Backend app - Simple django REST app:
+The examples are based on the following links:
+
+https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/
+
+https://www.django-rest-framework.org/api-guide/authentication/
+
+The basic step for almost all apps is to create a use. Luckily Django rest framework (drf) already supports such requirement - 
+
+
