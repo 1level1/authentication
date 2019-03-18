@@ -16,8 +16,9 @@ The highlevel flow is (App should already be registered, with an ap id):
 ## Instalation:
 1) Python >= 3.6
 2) virtual env:
-2.1) virtualenv py_venv
-2.2) Activate venv
+  2.1) python.exe -m venv /venv/path
+  2.2) source /venv/path/Scripts/activate
 3) Install Django, Django-Rest-Famework
+  3.1) pip install django
 4) Install PostgreSQL
 5) Install react-native
