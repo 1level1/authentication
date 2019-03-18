@@ -20,5 +20,6 @@ The highlevel flow is (App should already be registered, with an ap id):
     2. source /venv/path/Scripts/activate
 3. Install Django, Django-Rest-Famework
     1. pip install django
+    2. pip install django-rest-framework
 4. Install PostgreSQL
 5. Install react-native
