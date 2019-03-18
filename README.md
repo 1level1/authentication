@@ -32,6 +32,10 @@ https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/
 
 https://www.django-rest-framework.org/api-guide/authentication/
 
-The basic step for almost all apps is to create a use. Luckily Django rest framework (drf) already supports such requirement - 
+The basic step for almost all apps is to create a user. 
+
+Luckily Django rest framework (drf) already supports such requirement.
+
+1. Create a simple django app
 
 
