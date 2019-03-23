@@ -36,6 +36,21 @@ The basic step for almost all apps is to create a user.
 
 Luckily Django rest framework (drf) already supports such requirement.
 
-1. Create a simple django app
+1. Create a PostgreSQL DB. In my opinion, easiest way is to use pgadmin, lets call it 'authentication_example', also create a user for that db, lets call it 'auth_user_admin' with psw: '123456'
+2. Create a simple django app - I am using Eclipse with Django SDK, but you can use django command list as well: 
+https://www.django-rest-framework.org/tutorial/quickstart/
+3. Install python pgsql: pip install psycopg2
+4. Configure django app to worj with postgreSQL, changed the default sql section to pgsql:
+  DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.postgresql_psycopg2',
+          'NAME': 'authentication_example',
+          'USER': 'auth_user_admin',
+          'PASSWORD': '123456',
+          'HOST': 'localhost',
+          'PORT': '',
+      }
+  }
+
 
 
