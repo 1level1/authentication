@@ -43,14 +43,14 @@ https://www.django-rest-framework.org/tutorial/quickstart/
 4. Configure django app to worj with postgreSQL, changed the default sql section to pgsql:
 
 DATABASES = {<br/> 
-    'default': {<br/>       
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',<br/>
-        'NAME': 'authentication_example',<br/> 
-        'USER': 'auth_user_admin',<br/> 
-        'PASSWORD': '123456',<br/> 
-        'HOST': 'localhost',<br/> 
-        'PORT': '',<br/> 
-    }<br/> 
+'default': {<br/>
+'ENGINE': 'django.db.backends.postgresql_psycopg2',<br/>
+'NAME': 'authentication_example',<br/> 
+'USER': 'auth_user_admin',<br/> 
+'PASSWORD': '123456',<br/> 
+'HOST': 'localhost',<br/> 
+'PORT': '',<br/> 
+}<br/> 
 }<br/> 
 
 
