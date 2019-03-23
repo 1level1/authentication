@@ -41,16 +41,18 @@ Luckily Django rest framework (drf) already supports such requirement.
 https://www.django-rest-framework.org/tutorial/quickstart/
 3. Install python pgsql: pip install psycopg2
 4. Configure django app to worj with postgreSQL, changed the default sql section to pgsql:
-  DATABASES = {
-      'default': {
-          'ENGINE': 'django.db.backends.postgresql_psycopg2',
-          'NAME': 'authentication_example',
-          'USER': 'auth_user_admin',
-          'PASSWORD': '123456',
-          'HOST': 'localhost',
-          'PORT': '',
-      }
-  }
+
+DATABASES = {<br/> 
+    'default': {<br/>       
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',<br/>
+        'NAME': 'authentication_example',<br/> 
+        'USER': 'auth_user_admin',<br/> 
+        'PASSWORD': '123456',<br/> 
+        'HOST': 'localhost',<br/> 
+        'PORT': '',<br/> 
+    }<br/> 
+}<br/> 
+
 
 
 
