@@ -28,6 +28,8 @@ The highlevel flow is (App should already be registered - have app id):
 ### Backend app - Simple django REST app:
 The examples are based on the following links:
 
+https://docs.djangoproject.com/en/2.0/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project
+
 https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/
 
 https://www.django-rest-framework.org/api-guide/authentication/
