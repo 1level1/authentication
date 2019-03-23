@@ -40,8 +40,7 @@ Luckily Django rest framework (drf) already supports such requirement.
 2. Create a simple django app - I am using Eclipse with Django SDK, but you can use django command list as well: 
 https://www.django-rest-framework.org/tutorial/quickstart/
 3. Install python pgsql: pip install psycopg2
-4. Configure django app to worj with postgreSQL, changed the default sql section to pgsql:
-
+4. Configure django app to worj with postgreSQL, changed the default sql section to pgsql:<br/> 
 DATABASES = {<br/> 
 'default': {<br/>
 'ENGINE': 'django.db.backends.postgresql_psycopg2',<br/>
@@ -52,7 +51,9 @@ DATABASES = {<br/>
 'PORT': '',<br/> 
 }<br/> 
 }<br/> 
-
+5. Update DB:
+ - python manage.py migrate
+ - python manage.py makemigrations
 
 
 
