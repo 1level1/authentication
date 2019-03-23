@@ -52,8 +52,8 @@ DATABASES = {<br/>
 }<br/> 
 }<br/> 
 5. Update DB:
- - python manage.py migrate
- - python manage.py makemigrations
+   - python manage.py migrate
+   - python manage.py makemigrations
 
 
 
